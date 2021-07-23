@@ -1,6 +1,6 @@
 <?php
 //connect to mySQL
-$con = mysqli_connect("ec2-54-173-31-84.compute-1.amazonaws.com", "onkgwscjhuiloc", "3f28493056288a1d81657065fc6bfebe6b980a37f0458af8b47c6fc74d54f152", "dfs4hkn128tm6j"  );
+$con = mysqli_connect("remotemysql.com:3306", "nKGtJBAN29", "4krUSNEuI3", "nKGtJBAN29"  );
 //in format (LOCALHOST, ROOT, PASSWORD, DATABASE_NAME)
 
 //testing the connection
